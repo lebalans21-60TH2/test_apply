@@ -1,0 +1,135 @@
+.inputBox > span{
+    font-family: "Roboto";
+    animation: sliding 14s linear infinite;
+    display: block;
+}
+@keyframes sliding{
+    0%{
+      transform: translateX(160%);
+    }
+    100%{
+      transform: translateX(-100%);
+    }
+  }
+  .dropbtn {
+    background-color: rgba(227, 22, 22, 0);
+    border-radius: 50%;
+   
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    background-color: rgba(238, 238, 238, 0);
+    display: inline-block;
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    border:4px solid rgba(170, 168, 168, 0.2);
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 3vh;
+   
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #07b5ac96}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+   
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #fff;
+  }
+  .avatarOptions{ width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    object-fit: cover;}
+.divlogout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .8vmax;
+}
+.LogOutBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: .5vmax;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+.textLogo{
+  text-align: center !important;
+  justify-content: center;
+  align-Items:center;
+  margin-top: .6vmax;
+}
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
