@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c303f6a2.css",
+    "main.js": "/static/js/main.4ced2899.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/chibi_program.png": "/static/media/chibi_program.3f98a25bc52c616f3572.png",
+    "index.html": "/index.html",
+    "main.c303f6a2.css.map": "/static/css/main.c303f6a2.css.map",
+    "main.4ced2899.js.map": "/static/js/main.4ced2899.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c303f6a2.css",
+    "static/js/main.4ced2899.js"
+  ]
+}
